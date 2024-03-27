@@ -10,11 +10,19 @@ Edited: Voksi Doksi Studio
 4. Vylan
 
 Thanks to:
+
 Allah Swt
+
 Nabi Muhammad Saw
+
 Code Creative
+
 Visual Studio Code
+
 Makanan tadi sahur
+
 Internet
+
 Laptop
+
 Tenka Izumo
