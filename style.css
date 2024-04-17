@@ -44,6 +44,8 @@
 	padding: 30px;
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 	border-radius: 5%;
+	margin-top: 10px;
+
 }
 .score {
 	position: fixed;
@@ -64,20 +66,37 @@
 	font-weight: bold;
 }
 
-@media only screen and (max-width: 1080px) {
+
+
+@media only screen and (orientation: landscape) and (max-width: 900px) {
     .message{
-		font-size: 50px;
-		top: 50%;
-		white-space: nowrap;
-	}
-	.score{
-		font-size: 8vh;
-	}
-	.bird{
-		width: 120px;
-		height: 90px;
-	}
-	.pipe_sprite{
-		width: 14vw;
+        font-size: 1.5em;
+		font-weight: bold;
+    }
+
+    .messageStyle{
+        width: fit-content;
+		height: fit-content;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .score{
+        font-size: 2rem;
+    }
+
+    .pipe_sprite{
+        width: 14vw;
+    }
+
+    .bird{
+        width: 150px;
+        left: 20vw;
+    }
+
+	.body{
+		height: fit-content;
 	}
 }
